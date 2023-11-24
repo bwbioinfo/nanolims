@@ -1,3 +1,9 @@
+# mongo database
+data/
+
+# all environments
+**/*.env
+
 # Logs
 logs
 *.log
