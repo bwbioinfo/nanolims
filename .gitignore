@@ -1,6 +1,8 @@
 # mongo database
 data/
 
+.swc
+
 # all environments
 **/*.env
 
