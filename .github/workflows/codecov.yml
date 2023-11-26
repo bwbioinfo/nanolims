@@ -1,0 +1,32 @@
+name: Test Code Coverage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  codecov:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage1.xml,./coverage2.xml # optional
+          flags: unittests # optional
+          name: codecov-umbrella # optional
+          fail_ci_if_error: true # optional (default = false)
+          verbose: true # optional (default = false)
+
+  license-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tree
+        uses: actions/checkout@v4
+
+      - name: Run FOSSA scan and upload build data
+        uses: fossa-contrib/fossa-action@v3
+        with:
+          fossa-api-key: ${{ secrets.FOSSA_API }}
