@@ -24,10 +24,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - working-directory: ./nanolims_app
       - name: Install dependencies
+        working-directory: ./nanolims_app
         run: npm install
       - name: Run tests and collect coverage
+        working-directory: ./nanolims_app
         run: npm run test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
