@@ -5,6 +5,9 @@
     <a href="https://codecov.io/gh/bwbioinfo/nanolims" > 
          <img src="https://codecov.io/gh/bwbioinfo/nanolims/graph/badge.svg?token=XPQDBPKXGI"/> 
     </a>
+    <a href="https://codecov.io/gh/bwbioinfo/nanolims" > 
+         <img src="https://api.netlify.com/api/v1/badges/ecf77460-b74b-40ac-b147-5ee20e344957/deploy-status"/> 
+    </a>
 </p>
 
 # NanoLIMS
