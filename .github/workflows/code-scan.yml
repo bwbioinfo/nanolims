@@ -6,6 +6,7 @@ on:
       - main
 jobs:
   license-scan:
+    name: License Scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout tree
@@ -15,8 +16,8 @@ jobs:
         with:
           fossa-api-key: ${{ secrets.FOSSA_API }}
   code-coverage:
+    name: Code Coverage
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
