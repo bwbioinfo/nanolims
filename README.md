@@ -1,4 +1,11 @@
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims.svg?type=shield"/></a>
+<p align="left">
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims?ref=badge_shield" alt="FOSSA Status">
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims.svg?type=shield"/>
+    </a>
+    <a href="https://codecov.io/gh/bwbioinfo/nanolims" > 
+         <img src="https://codecov.io/gh/bwbioinfo/nanolims/graph/badge.svg?token=XPQDBPKXGI"/> 
+    </a>
+</p>
 
 # NanoLIMS
 An ultralightweight, flexible LIMS system.
