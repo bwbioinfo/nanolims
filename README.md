@@ -13,6 +13,9 @@
 # NanoLIMS
 An ultralightweight, flexible LIMS system.
 
+[<img alt="alt_text" width="36" height="36" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" />](https://www.google.com/)
+
+
 <p align="left">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" />
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
