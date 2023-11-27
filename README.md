@@ -1,3 +1,12 @@
+<style>
+    /* Remove link styles */
+    div a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+</style>
+
 <p align="left">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims?ref=badge_shield" alt="FOSSA Status">
         <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims.svg?type=shield"/>
