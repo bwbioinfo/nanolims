@@ -1,4 +1,3 @@
-<div style="text-decoration: none; color: inherit; cursor: pointer;">
 <p align="left">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims?ref=badge_shield" alt="FOSSA Status">
         <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims.svg?type=shield"/>
@@ -10,10 +9,14 @@
          <img src="https://api.netlify.com/api/v1/badges/ecf77460-b74b-40ac-b147-5ee20e344957/deploy-status"/> 
     </a>
 </p>
-</div>
 
 # NanoLIMS
 An ultralightweight, flexible LIMS system.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" />
+</a>
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" />
 
 <p align="left">
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
