@@ -14,3 +14,119 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+main {
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #fff; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Make it bold */
+}
+
+/* Navbar links styles */
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust the right margin between items */
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Link color */
+  font-weight: bold; /* Make it bold */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Active link styles */
+.navbar-nav .nav-item.active .nav-link {
+  color: #007bff; /* Active link color */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Add this CSS to your styles file */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  font-size: 1em;
+  color: #555;
+}
+
+.card-img-top {
+  height: 50px;
+  border-radius: 8px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Layout from "@/components/Layout";
 
 function ClientsPage() {
   const DUMMY_Clients = [
@@ -17,6 +18,7 @@ function ClientsPage() {
 
   return (
     <div>
+      <Layout>
       <h1>The Clients Page</h1>
       <ul>
         {clients.map((client) => (
@@ -25,6 +27,7 @@ function ClientsPage() {
           </li>
         ))}
       </ul>
+      </Layout>
     </div>
   );
 }
