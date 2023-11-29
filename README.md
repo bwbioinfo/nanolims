@@ -1,6 +1,5 @@
 [<img alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims.svg?type=shield"/>](https://app.fossa.com/projects/git%2Bgithub.com%2Fbwbioinfo%2Fnanolims?ref=badge_shield)
 [<img alt="Codecoverage" src="https://codecov.io/gh/bwbioinfo/nanolims/graph/badge.svg?token=XPQDBPKXGI"/>](https://codecov.io/gh/bwbioinfo/nanolims)
-[<img alt="Test Deploy Status" src="https://api.netlify.com/api/v1/badges/ecf77460-b74b-40ac-b147-5ee20e344957/deploy-status"/>](https://sensational-duckanoo-499a2a.netlify.app/)
 
 # NanoLIMS
 An ultralightweight, flexible LIMS system.
