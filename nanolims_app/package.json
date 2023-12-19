@@ -18,7 +18,7 @@
     "@mui/material": "^5.14.18",
     "mongoose": "^8.0.1",
     "next-auth": "^4.24.5",
-    "passport": "^0.6.0",
+    "passport": "^0.7.0",
     "passport-github2": "^0.1.12",
     "passport-orcid": "^0.0.4",
     "react": "^18",
