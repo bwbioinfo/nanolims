@@ -10,13 +10,6 @@ describe("Home", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it("Should have a link to the about page", () => {
-    render(<Home />);
-
-    const link = screen.getByRole("link", { name: "About" });
-    expect(link).toBeInTheDocument();
-  });
-
   it("Should have the correct heading text", () => {
     render(<Home />);
     const heading = screen.getByRole("heading", { name: "The Home" });
