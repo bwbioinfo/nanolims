@@ -10,7 +10,7 @@ function Card( props ) {
         </span>
       <div className="card-body">
     
-        <p className="card-text">{props.children}</p>
+        <div className="card-text">{props.children}</div>
       </div>
     </div>
   );
