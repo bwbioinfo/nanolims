@@ -72,4 +72,5 @@ export default NextAuth({
     // error: "/auth/error",
     // verifyRequest: "/auth/verify-request",
   },
+  secret: process.env.NEXTAUTH_SECRET,
 });
