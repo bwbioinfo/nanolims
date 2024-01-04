@@ -10,12 +10,17 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import { ThemeProvider } from "@mui/material/styles";
 import Copyright from "@/components/Copyright";
 import Typography from "@mui/material/Typography";
+import { defaultTheme } from "@/styles/themes";
 import { darkTheme } from "@/styles/themes";
-import { signIn } from "next-auth/react";
-
+import { authenticate } from "passport";
 
 
 export default function SignInSide() {
+
+  
+  const handleGithubLogin = () => {
+    router.push('/api/auth/github');
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -53,24 +58,23 @@ export default function SignInSide() {
             <Typography component="h1" variant="h5">
               Sign In With:
             </Typography>
+            <Box
+              component="form"
+              noValidate
+              onSubmit={handleGithubLogin}
+              sx={{ mt: 1 }}
+            >
               <Button
-                onClick={() => signIn('github')}
+                type="submit"
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
                 GitHub
               </Button>
-              <Button
-                onClick={() => signIn('google')}
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2 }}
-              >
-                Google
-              </Button>
               <Copyright sx={{ mt: 5 }} />
             </Box>
+          </Box>
         </Grid>
       </Grid>
     </ThemeProvider>
