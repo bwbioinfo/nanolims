@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SideDrawer from "./SideDrawer/SideDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
+import LoginButton from "@components/LoginButton";
 
 function NavBar() {
   return (
@@ -30,6 +31,9 @@ function NavBar() {
               <Link className="nav-link" href="/users">
                 Users
               </Link>
+            </li>
+            <li className="nav-item">
+              <LoginButton />
             </li>
           </ul>
         </div>

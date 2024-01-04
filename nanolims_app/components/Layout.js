@@ -1,31 +1,23 @@
-import Head from "next/head";
 import NavBar from "./NavBar";
 import Copyright from "./Copyright";
+import withAuth from "@components/hocs/withAuth";
 
+function Layout(props) {
 
-function Layout({ children }) {
-  return (
-    <div className="wrapper">
-      <Head>
-        <title>NanoLIMS</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <NavBar />
+    return (
+      <div className="wrapper">
+        <NavBar />
 
-      <main>{children}</main>
+        <main>{props.children}</main>
 
-      <footer className="footer">
-        <a
-          href=""
-            target="_blank"
-            rel="noopener noreferrer"
-        >
+        <footer className="footer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             Powered by NanoLIMS
-        </a>
-        <Copyright />
+          </a>
+          <Copyright />
         </footer>
-    </div>
+      </div>
     );
 }
 
-export default Layout;
+export default withAuth(Layout);
