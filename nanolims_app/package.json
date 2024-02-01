@@ -15,7 +15,7 @@
     "@auth/mongodb-adapter": "^2.0.10",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.19",
+    "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.14.18",
     "mongoose": "^8.0.2",
     "help": "^3.0.2",
