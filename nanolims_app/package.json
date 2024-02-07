@@ -30,7 +30,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-scatter-graphy": "^0.4.3",
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
