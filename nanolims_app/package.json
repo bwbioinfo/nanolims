@@ -12,7 +12,7 @@
     "test-coverage": "jest --coverage"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^2.0.10",
+    "@auth/mongodb-adapter": "^3.6.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.19",
