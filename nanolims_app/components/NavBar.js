@@ -1,5 +1,4 @@
 import Link from "next/link";
-import SideDrawer from "./SideDrawer/SideDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
 import LoginButton from "@components/LoginButton";
 
